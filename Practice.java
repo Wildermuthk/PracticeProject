@@ -19,4 +19,7 @@ public class Dog{
         this.breed = breed;
         this.age = age;
     }
+
+    Dog dog1 = new dog("Sparky", "Lab", 5);
+    
 }
