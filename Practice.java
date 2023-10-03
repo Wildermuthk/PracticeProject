@@ -20,6 +20,10 @@ public class Dog{
         this.age = age;
     }
 
+    public String getName(){
+        return name;
+    }
+
     Dog dog1 = new dog("Sparky", "Lab", 5);
-    
+    dog1.getName();
 }
